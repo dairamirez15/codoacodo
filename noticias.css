@@ -57,7 +57,7 @@ header{
 	background-color: #EEEEEE;
 }section#contenido_principal{
 	width:960px;
-	height: 800px;
+	height: auto;
 	background-color:#dfe7eb; 
 	margin-left: auto;
 	margin-right: auto;
@@ -70,8 +70,7 @@ header{
 	background-image: url(img/img1.jpg);
 	background-size: cover;}
 #presentacion{
-	width: 600px;
-	height: 300px;
+	height: auto;
 	background-color: #fab1a0;
 	float: right;
 	margin-bottom: 10px;

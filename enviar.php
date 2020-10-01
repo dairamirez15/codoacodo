@@ -12,7 +12,7 @@ $mensaje .= "Su e-mail es: " . $mail . " \r\n";
 $mensaje .= "Asunto: " . $asunto . " \r\n";
 $mensaje .= "Teléfono: " . $telefono . " \r\n";
 $mensaje .= "Mensaje: " . $empresa . " \r\n";
-$mensaje .= "Enviado el " . date('d/m/Y', time());$para = 'emilianospinoso@gmail.com';
+$mensaje .= "Enviado el " . date('d/m/Y', time());$para = 'dairamirez@outlook.com';
 $asunto = 'Mensaje de mi sitio web';if (mail($para, $asunto, utf8_decode($mensaje), $header))
 echo "<script type='text/javascript'>alert('Tu mensaje ha sido enviado exitosamente');</script>";
 echo "<script type='text/javascript'>window.location.href='index.html';</script>";?>
